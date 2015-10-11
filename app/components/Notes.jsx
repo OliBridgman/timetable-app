@@ -5,7 +5,7 @@ export default class Notes extends Component {
 
   constructor(props) {
     super(props)
-
+    console.log(props)
     this.renderNote = this.renderNote.bind(this)
   }
 
